@@ -51,11 +51,20 @@ It can have constructors and static methods also.
 
 It can have final methods which will force the subclass not to change the body of the method.
 
+Why we need an abstract class?
+----------------------------------
+
+We need abstract class to create abstract methods. 
+
 Abstract Method 
 -------------------
 
 A method which is declared as abstract and does not have implementation is known as an abstract method.
 
+How can you implement abstract method body for an abstract method?
+-------------------------------------------------------------------
+
+We need to implement abstract method by inherit the abstract class.
 
 Rule
 -----

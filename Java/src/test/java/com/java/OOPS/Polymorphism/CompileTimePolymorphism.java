@@ -37,13 +37,14 @@ Polymorphism
 ----------------
 1. The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
 
-2. Polymorphism in Java is a concept by which we can perform a single action in different ways.
+2. Polymorphism is a concept by which we can perform a single action in different ways.
 
-There are two types of polymorphism in Java: 
+Two types of polymorphism
+------------------------------------
 
-1. Compile-time polymorphism - methodoverloading
+1. Compile-time polymorphism - MethodOverloading
 
-2. Runtime polymorphism - methodoverriding
+2. Runtime polymorphism - MethodOverriding
 
 Method Overloading
 -----------------------
