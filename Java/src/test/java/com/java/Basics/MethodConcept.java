@@ -94,7 +94,6 @@ Case3: Take Parameters and No Return Value
 
 Case4: Take Parameters and Return Value
 
-
 main() method can be present in a same class.
 
 main() method can be present in a separate class.

@@ -31,13 +31,3 @@ public class MultiLevelInheritance
 		mi.method2();
 	}
 }
-/*
-
-Multi Level Inheritance 
-
-When a class is derived from a class which is also derived from another class.
-i.e
-Class having more than one parent class but at different levels.
-
-
-*/

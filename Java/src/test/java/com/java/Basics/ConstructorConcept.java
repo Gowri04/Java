@@ -87,8 +87,6 @@ Types of Constructor
 		
 		c. Parameterized Constructor we can pass the values in the form the arguments.
 		
-		d. Parameterized Constructor is used to provide different values to distinct objects. 
-
 
 Java Method/Java Constructor
 -----------------------------

@@ -5,14 +5,16 @@ class MethodOverloading
 	{
 		System.out.println("Compile Time Polymorhism");
 	}
-	void method(int a, int b, int c)
+	int method(int a, int b,int c)
 	{
 		System.out.println("MethodOverloading");
+		return a; 
 	}
 	void method(String s, String s1)
 	{
 		System.out.println("Binding are happened at Compile Time");
 	}
+	
 }
 public class CompileTimePolymorphism 
 {
@@ -24,7 +26,9 @@ public class CompileTimePolymorphism
 		
 		mo.method("Java", "Programming");
 		
-		mo.method(20,30,40);
+		int x=mo.method(20,30,40);
+		
+		System.out.println(x);
 	}
 }
 /*
@@ -43,33 +47,42 @@ There are two types of polymorphism in Java:
 
 Method Overloading
 -----------------------
+
 1. A class having multiple methods with same name but different parameters is called Method Overloading.
-2. There are three ways to overload a method
-	a. Parameters with different data types
-	b. Parameters with different sequence of a data types
-	c. Different number of parameter
+
+2. There are two ways to overload a method
+
+	a. By changing different number of arguments
+	b. By changing the datatypes
+
 3. Method overloading increases the readability of the program.
 
 Why we need Method Overloading?
 -------------------------------
-We need method overloading to perform multiple operations.
+
+We need method overloading to perform single operations by passing different parameters.
 		
 Why Method Overloading is not possible by changing the return type of method only?
 -------------------------------------------------------------------------------------
+
 Method overloading is not possible by changing the return type of the method only because of ambiguity. 
+
+Compiler gets confused which method to call.
 
 Note
 ----
+
 1. Compile Time Error is better than Run Time Error. 
+
 2. So, java compiler renders compiler time error if you declare the same method having same parameters.
+
 	
 Can we overload java main() method?
 -------------------------------------
-1. Yes, by method overloading. You can have any number of main methods in a class by method overloading.
+
+1. Yes, by method overloading. We can have any number of main methods in a class by method overloading.
+
 2. But JVM calls main() method which receives string array as arguments only.
-
-
-
 
 
 */

@@ -35,9 +35,3 @@ public class HierarchicalInheritance
 		hc.method1();
 	}
 }
-
-/*
-
-Hierarchical Inheritance is combination of more than one form of inheritance.
-
- */
