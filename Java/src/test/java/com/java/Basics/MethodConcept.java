@@ -55,11 +55,19 @@ public class MethodConcept
 	}
 }
 /*
-1.Method is a named block of code.
-2.Method can have its own name.
-3.Method can return a value.
-4.A method in java gets executed only when it is called.
-5.Inside Methods we can create logics.
+
+Methods
+	
+1. Method is a block of code grouped together to perform a certain task or operation. 
+2. Method is used to achieve the reusability of code. 
+3. The method is executed only when we call or invoke it.
+4. Method have a return type and we can control the methods using access modifiers.
+
+Types of Method
+
+	1. Predefined Method or Built in method(method that is already defined in the Java class libraries)
+	2. User-defined Method(method written by the user or programmer)
+
 
 Calling Method: A method which invokes another method.
 Called Method: A method which gets invoked.
@@ -69,8 +77,7 @@ Case2: No Parameters and Return Value
 Case3: Take Parameters and No Return Value
 Case4: Take Parameters and Return Value
 
-
-
 main() method can be present in a same class.
 main() method can be present in a separate class.
+
 */
