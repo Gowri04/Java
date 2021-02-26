@@ -25,20 +25,17 @@ public class ConstructorOverloading
 }
 /*
 
-Overloading: Creating multiple constructors with the same name but with different parameters.
-
-1.Constructor Overloading is a concept of creating multiple constructors in a class.
-
-2.In Constructor Overloading it is mandatory to change the argument list.
-
-		
 Constructor Overloading
+
 Creating multiple constructors in a class with same name but different arguments.
 		
 Different Types of Arguments
-	1. Types of Arguments(Datatypes)
-	2. Length of Arguments(No of Arguments)
-	3. Sequence of Arguments(Order of Arguments)
+
+1. Types of Arguments(Datatypes)
+
+2. Length of Arguments(No of Arguments)
+
+3. Sequence of Arguments(Order of Arguments)
 
 
 

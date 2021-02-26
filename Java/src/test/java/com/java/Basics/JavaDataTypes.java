@@ -33,14 +33,3 @@ public class JavaDataTypes
 		datatypes.datatypes();		
 	}
 }
-/*
-
-Datatypes is used to store the type of value inside a varaible.
-
-Types of Datatypes
-
-Primitive Datatypes:byte,short,int,long,float,double,char,boolean.
-Derived Datatypes:Array,ArrayList,String,Hashmap.
-
-
-*/

@@ -46,22 +46,3 @@ public class JavaOperators
 		System.out.println(a--); 
 	}
 }
-/*
-
-Operators is a symbol(+,-,*) which is used to perform certain task.
-
-Logical Operators: Works between two boolean.
-&&-Display if both the condition is TRUE.
-||-Display if either one of the condition is TRUE.
-!-Display the condition is not TRUE.
-
-
-Increment Operator(++)
-
-Decrement Operator(--)
-
-In Post Operation current value is used and increment or decrement is performed(a++),(a--).
-
-In Pre Operation current value is first incremented or decremented.(++a),(--a).
-
-*/

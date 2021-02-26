@@ -36,24 +36,5 @@ Length of an Array: 5
 30
 40
 50 
-
-Array is a collection of values of the same datatype.
-
-Syntax
-
-Datatype arrayname=new datatype[size]
-
-Two Types of Array
-
-Single Dimensional Array
-Two/Multi Dimentional Array
- 
-int a[]=new int[5]   
-int  []a=new int[5]	 
-	    
-Insert values into an array
-Find the size of the array
-Read values from an array 
- 
 */
 
